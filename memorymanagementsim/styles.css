@@ -1,0 +1,31 @@
+
+html, body {
+  font-family: sans-serif;
+  font-family: 'Calibri', sans-serif;
+  font-size: 16px;
+}
+
+h1 {
+	font-size: 20px;
+	color: #c62121;
+}
+
+h2 {
+	font-size: 18px;
+	color: #ed4242;
+}
+
+p {
+	margin: 5px 5px 10px 5px;
+	color: #545151;
+}
+
+h1, h2 {
+	margin: 5px 5px;
+}
+
+.credit {
+	font-size: 12px;
+	margin:2px 5px;
+	color: #727070;
+}

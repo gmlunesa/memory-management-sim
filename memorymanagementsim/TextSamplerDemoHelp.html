@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!-- saved from url=(0130)https://docs.oracle.com/javase/tutorial/uiswing/examples/components/TextSamplerDemoProject/src/components/TextSamplerDemoHelp.html -->
+<html lang="en-us">
+<head>
+	<meta http-equiv="Content-Type" content="text/html">
+	<meta charset="utf-8" />
+	<title>Placement Algorithms Briefing</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+<!-- <img src="./TextSamplerDemoHelp_files/dukeWaveRed.gif" width="64" height="64" alt="Waving Duke icon"> -->
+
+<h1>Placement Policies</h1>
+<p> Placement policies are implemented as a memory allocation strategy, to help determine where in main memory should incoming processes be placed. <br />
+	In non-paged systems, placement policy must maintain a list of the locations and sizes of all unallocated parts of memory (free list). Then, it is decided which free memory should be used, and update the free list after each insertion</p>
+
+<h2>First-fit placement algorithm</h2>
+<p>The main memory is scanned for the first chunk of memory in the free list that is big enough to accommodate the requesting process.</p>
+
+<h2>Best-fit placement algorithm</h2>
+<p>The chunk of memory in the free list which produce the smallest left-over is chosen to be allocated to the process.</p>
+
+
+<h2>Worst-fit placement algorithm</h2>
+<p>In worst fit approach is to locate largest available free memory partition so that such portion will produce the most left-over memory space. It is the reverse of best fit.</p>
+
+<h2>Source:</h2>
+<p class = credit>CMSC 125: Memory Management by Paula Esplanada-Mayol </p>
+
+<p><a href="https://google.com"> Results and Analysis </a></p>
+
+
+</body></html>
