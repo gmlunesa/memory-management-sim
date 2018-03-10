@@ -1,7 +1,7 @@
 # memory-management-sim
 A simple simulation of a batch-processing computer installation of placement algorithms using Java.
 
-**Warning**: This project needs to be cleaned.
+_**Warning**: This project needs to be cleaned._
 
 ### About
 This is a project for my Operating Systems class, submitted to Mrs. Mayol. 
